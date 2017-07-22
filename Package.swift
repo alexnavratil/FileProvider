@@ -1,5 +1,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "FilesProvider"
+    name: "FilesProvider",
+    exclude: ["FilesProvider.xcodeproj"]
 )
